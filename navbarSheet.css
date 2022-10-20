@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+    .navBar{
+        width: 300px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-flow: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .navBar > p{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .navBar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: flex-end;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+        flex-flow: row;
+    }
+    .navBar > p{
+        margin: 10px;
+    }
+}
+
+
